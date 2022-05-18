@@ -29,9 +29,9 @@ class DataMenu extends Component {
                     <h1>Menu</h1>
                 </div>
                 <div className='menu-container'>
-                {
+                    <div className='menu-item-container'>
+                    {
                     items.map((item) => (
-                    <div>
                         <ul key = { item.id }  className='menu-item'>
                             <div className='dish-type-item'>
                                 <h2>{ item.title } </h2>
@@ -44,9 +44,9 @@ class DataMenu extends Component {
                                 <p>{ item.price }</p>
                             </div>
                         </ul>
-                    </div>
                         )) 
                 }
+                    </div>
                 </div>
             </div>
         );
