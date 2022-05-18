@@ -9,15 +9,17 @@
 
 }
 
-.container h1 {
-    font-size: 60px;
-}
+
 
 .menu {
     text-align: center;
     color: rgb(14, 25, 25);
     margin-top: 0;
-    font-size: 100px;
+}
+
+.menu h1 {
+    padding-top: 10px;
+    font-weight: 500;
 }
 
 .menu-container {
