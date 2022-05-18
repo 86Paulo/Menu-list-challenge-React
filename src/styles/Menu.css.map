@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,gBAAgB,EAAE,OAAkB;EACpC,WAAW,EAAE,GAAG;EAChB,OAAO,EAAE,MAAM;EACf,MAAM,EAAE,KAAK;CAChB;;AAED,AAAA,KAAK,CAAC;EACF,YAAY,EAAE,GAAG;CAGpB;;AAED,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,UAAU;CAE/B",
+    "mappings": "",
     "sources": [
         "Menu.scss"
     ],

@@ -24,19 +24,23 @@ class DataMenu extends Component {
     render() { 
         const { items } = this.state;
         return (
-            <div className='container-menu'>
-                <h1 className='menu'>Menu</h1>
-                <div>
-                {
-                    items.map((item) => (
-                    <ul key = { item.id }  className='menu-item'>
-                        <h2>{ item.title } </h2>
-                        <p>{ item.description }</p> 
-                        <p>{ item.price }</p>
-                        <p>{ item.type }</p>
-                    </ul>
-                        )) 
-                }
+            <div className='container'>
+                <div className='menu'>
+                    <h1>Menu</h1>
+                    <div>
+                    {
+                        items.map((item) => (
+                        <div>
+                            <ul key = { item.id }  className='menu-item'>
+                                <h2>{ item.title } </h2>
+                                <p>{ item.description }</p> 
+                                <p>{ item.price }</p>
+                                <p>{ item.type }</p>
+                            </ul>
+                        </div>
+                            )) 
+                    }
+                    </div>
                 </div>
             </div>
         );
