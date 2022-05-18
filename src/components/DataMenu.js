@@ -27,20 +27,26 @@ class DataMenu extends Component {
             <div className='container'>
                 <div className='menu'>
                     <h1>Menu</h1>
+                </div>
+                <div className='menu-container'>
+                {
+                    items.map((item) => (
                     <div>
-                    {
-                        items.map((item) => (
-                        <div>
-                            <ul key = { item.id }  className='menu-item'>
+                        <ul key = { item.id }  className='menu-item'>
+                            <div className='dish-type-item'>
                                 <h2>{ item.title } </h2>
-                                <p>{ item.description }</p> 
-                                <p>{ item.price }</p>
                                 <p>{ item.type }</p>
-                            </ul>
-                        </div>
-                            )) 
-                    }
+                            </div>
+                            <div className='description-item'>
+                                <p>{ item.description }</p>
+                            </div> 
+                            <div className='price-item'>
+                                <p>{ item.price }</p>
+                            </div>
+                        </ul>
                     </div>
+                        )) 
+                }
                 </div>
             </div>
         );
