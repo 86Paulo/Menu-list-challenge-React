@@ -7,10 +7,9 @@ class DataMenu extends Component {
 
         this.state = {
             items: [],
-            DataIsLoaded: false
         };
     }
-
+    // Get the data from the API
     componentDidMount() {
         fetch('https://studiographene-exercise-api.herokuapp.com/foods')
             .then((response) => response.json())
@@ -32,16 +31,16 @@ class DataMenu extends Component {
                     <div className='menu-item-container'>
                     {
                     items.map((item) => (
-                        <ul key = { item.id }  className='menu-item'>
-                            <div className='dish-type-item'>
+                        <ul key = { item.id } id = {item.id}  className='menu-item'>
+                            <div className='dish-item'>
                                 <h2>{ item.title } </h2>
-                                <p>{ item.type }</p>
                             </div>
                             <div className='description-item'>
                                 <p>{ item.description }</p>
                             </div> 
-                            <div className='price-item'>
-                                <p>{ item.price }</p>
+                            <div className='price-type-item'>
+                                <p>{ item.price } $</p>
+                                <p>{ item.type }</p>
                             </div>
                         </ul>
                         )) 

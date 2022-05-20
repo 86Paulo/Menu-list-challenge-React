@@ -1,56 +1,69 @@
 .container {
-    background-image: url("./images/brooke-lark-29h2n639YDA-unsplash.jpg");
+    margin: 0;
+    background-image: url("./images/brooke-lark-wMzx2nBdeng-unsplash.jpg");
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bolder;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-
 
 .menu {
     text-align: center;
-    color: rgb(14, 25, 25);
     margin-top: 0;
 }
 
 .menu h1 {
-    padding-top: 10px;
+    margin-top: 0%;
+    padding-top: 100px;
     font-weight: 500;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: rgba(14, 25, 25, 0.87);
 }
 
-.menu-container {
+.menu-item-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 100%;
+    position: relative;
+}
+
+.menu-item {
+    box-sizing: border-box;
+    padding: 0 10px 0 10px;
     display: flex;
-    flex-direction: column;
-
+    flex-flow: column;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    color: rgb(14, 25, 25);
+    box-shadow: 6px 4px 20px 3px rgba(155,155,155,0.56);
+    border-radius: 5px;
+    margin: 0 5px 0 5px;
 }
-.dish-type-item {
+
+.dish-item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.menu-item {
-    padding: 0 10px 0 10px;
-    flex-direction: column;
-    background-color: whitesmoke;
-    opacity: 0.8;
-    color: rgb(14, 25, 25);
-    box-shadow: 6px 4px 20px 3px rgba(155,155,155,0.56);
+.description-item {
+    text-align:justify;
 }
 
-.menu-item-container {
-    /*display: flex;
-    flex-direction: column; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
-    
+
+.price-type-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
