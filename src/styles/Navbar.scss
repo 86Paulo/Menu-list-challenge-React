@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: #ffdac9;
+    color: #333333;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    padding: 0 1rem;
+    top: 23px;
+    left: 35px;
+    width: 1263px;
+    height: 28px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.site-title {
+    margin-right: auto;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.our-menu {
+    padding-right: 695px !important;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+} 
