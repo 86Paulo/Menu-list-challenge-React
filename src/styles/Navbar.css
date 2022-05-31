@@ -8,7 +8,7 @@ body {
 }
 
 .nav {
-  background-color: transparent;
+  background-color: #FFBEBC;
   color: #333333;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,15 +24,15 @@ body {
   left: 35px;
   width: 1263px;
   height: 28px;
-  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   z-index: 1;
+  font-weight: bold;
 }
 
 .site-title {
   margin-right: auto;
+  font-size: 120%;
 }
 
 .nav ul {
@@ -46,7 +46,7 @@ body {
 }
 
 .our-menu {
-  padding-right: 695px !important;
+  padding-right: 666px !important;
 }
 
 .nav a {

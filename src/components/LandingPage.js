@@ -5,8 +5,11 @@ export default function LandingPage() {
     return <section className='big-container'>
         <Navbar />
         <div className="big-image">
-            <h1>the best foodie experience</h1>
-            <h3>now in london</h3>
+            <div className='text'>
+                <span className='small'>the best foodie</span>
+                <span className='big'>experience</span>
+                <span className='x-small'>now in london</span>
+            </div>
         </div>
     </section>
 }
