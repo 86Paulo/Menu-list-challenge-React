@@ -1,6 +1,11 @@
-.img-container {
+.card-container {
+  width: 500px;
+  height: 100vh;
+}
+
+.restaurant-image {
+  background-image: url("../styles/images/piotr-szulawski-DCmUhk54F6M-unsplash.jpg");
   width: 250px;
   height: 250px;
-  overflow: hidden;
 }
 /*# sourceMappingURL=Card.css.map */

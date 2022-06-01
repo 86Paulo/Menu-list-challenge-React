@@ -1,9 +1,10 @@
 .card-container {
-
+    width: 500px;
+    height: 100vh;
 }
 
-.img-container {
+.restaurant-image {
+    background-image: url('../styles/images/piotr-szulawski-DCmUhk54F6M-unsplash.jpg');
     width: 250px;
     height: 250px;
-    overflow: hidden;
 }
