@@ -1,7 +1,9 @@
 import React from 'react';
+import '../styles/Card.css';
 
 export default function Card () {
-    return <div className='card-container'>
+    return (
+    <div className='card-container'>
         <div className='img-container'>
             <div className='restaurant-image'></div>
         </div>
@@ -10,4 +12,5 @@ export default function Card () {
             <p className='text'></p>
         </div>
     </div>
+    )
 }
