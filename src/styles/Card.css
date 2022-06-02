@@ -1,5 +1,5 @@
 .card-container {
-  height: 130vh;
+  height: 140vh;
   margin: 0;
   background-color: whitesmoke;
   position: relative;
@@ -46,6 +46,8 @@
           box-sizing: border-box;
   padding: 15px 13px 15px 13px;
   background-color: white;
+  -webkit-box-shadow: 3px 4px 30px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 4px 30px 5px rgba(0, 0, 0, 0.1);
 }
 
 .restaurant-image {
@@ -67,19 +69,59 @@
 #img-2 {
   position: absolute;
   top: 600.1px;
-  right: 145px;
+  right: 175px;
 }
 
 #img-3 {
   position: absolute;
-  top: 426px;
+  top: 375px;
   left: 330px;
 }
 
 .text-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
-  height: 215px;
-  width: 215px;
+  position: absolute;
+  top: 150px;
+  right: 185px;
+  width: 220px;
+  height: 205px;
   background-color: white;
+  -webkit-box-shadow: 3px 4px 30px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 3px 4px 30px 5px rgba(0, 0, 0, 0.1);
+}
+
+#text-1 {
+  position: absolute;
+  top: 150px;
+  right: 185px;
+}
+
+#text-2 {
+  position: absolute;
+  top: 600.1px;
+  right: 440px;
+}
+
+#text-3 {
+  position: absolute;
+  top: 375px;
+  left: 95px;
+}
+
+.top-text {
+  padding-left: 12px;
+  font-weight: bold;
+}
+
+.text-content {
+  height: 150px;
+  width: 190px;
+  padding-left: 12px;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 0;
+  font-weight: bold;
 }
 /*# sourceMappingURL=Card.css.map */
