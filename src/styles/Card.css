@@ -1,10 +1,85 @@
 .card-container {
-  height: 100vh;
+  height: 130vh;
+  margin: 0;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+#text {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 79.9px;
+  left: 418.99px;
+  text-transform: uppercase;
+  color: rgba(14, 25, 25, 0.87);
+  width: 232px;
+  height: 114px;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+#know-more {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 143px;
+  left: 421px;
+  text-transform: uppercase;
+  color: rgba(14, 25, 25, 0.87);
+  background-color: #FFBEBC;
+  height: 20px;
+  width: 91px;
+  margin: 0;
+  text-align: center;
+}
+
+#know-more a {
+  text-decoration: none;
+  color: rgba(14, 25, 25, 0.87);
+}
+
+.img-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px 13px 15px 13px;
+  background-color: white;
 }
 
 .restaurant-image {
   background-image: url("../styles/images/piotr-szulawski-DCmUhk54F6M-unsplash.jpg");
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 177px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#img-1 {
+  position: absolute;
+  top: 150.1px;
+  right: 420px;
+}
+
+#img-2 {
+  position: absolute;
+  top: 600.1px;
+  right: 145px;
+}
+
+#img-3 {
+  position: absolute;
+  top: 426px;
+  left: 330px;
+}
+
+.text-container {
+  margin: 0;
+  height: 215px;
+  width: 215px;
+  background-color: white;
 }
 /*# sourceMappingURL=Card.css.map */
