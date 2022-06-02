@@ -10,7 +10,7 @@
           box-sizing: border-box;
   position: absolute;
   top: 79.9px;
-  left: 418.99px;
+  left: 390px;
   text-transform: uppercase;
   color: rgba(14, 25, 25, 0.87);
   width: 232px;
@@ -110,6 +110,23 @@
   left: 95px;
 }
 
+#text-4 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 180px;
+  left: 375px;
+  font-weight: bold;
+}
+
+#text-5 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: 630px;
+  left: 147px;
+}
+
 .top-text {
   padding-left: 12px;
   font-weight: bold;
@@ -122,6 +139,5 @@
   text-align: left;
   font-size: 15px;
   margin-left: 0;
-  font-weight: bold;
 }
 /*# sourceMappingURL=Card.css.map */

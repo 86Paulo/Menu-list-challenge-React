@@ -4,9 +4,6 @@ import '../styles/Card.css';
 export default function CardImage () {
     return (
         <>
-        <div id='text'>
-            <h1>meet our community</h1>
-        </div>
         <div>
             <h5 id='know-more'><a href='#'>know more</a></h5>
         </div>
