@@ -25,7 +25,8 @@ class DataMenu extends Component {
         return (
             <div className='container'>
                 <div className='menu'>
-                    <h1>Menu</h1>
+                    <h1>our menu</h1>
+                    <h3>know more</h3>
                 </div>
                 <div className='menu-container'>
                     <div className='menu-item-container'>

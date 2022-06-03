@@ -1,3 +1,8 @@
+@font-face {
+  font-family: gilsans;
+  src: url("../styles/fonts/GillSans.ttc");
+}
+
 .big-container {
   height: 100vh;
   margin: 0;
@@ -19,6 +24,7 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: #ffede6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .big {

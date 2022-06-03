@@ -26,6 +26,5 @@ export default function CardText () {
             <p className='text-content'>I'm not a witch. Where'd you get the coconuts? She looks like one. The Lady of the Lake, water.</p>
         </div>
         </>
-        
     )
 }

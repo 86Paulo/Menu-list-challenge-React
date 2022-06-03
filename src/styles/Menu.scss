@@ -31,6 +31,17 @@
     font-size: 5em;
     text-transform: uppercase;
     color: rgba(14, 25, 25, 0.87);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu h3 {
+    top: -55px;
+    left: 570px;
+    position: relative;
+    margin: 0;
+    background-color: #FFBEBC;
+    width: 110px;
+    height: 25px;
 }
 
 .menu-item-container {
@@ -51,6 +62,7 @@
     color: rgb(14, 25, 25);
     margin: 0;
     border-left: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .dish-item {
@@ -63,4 +75,5 @@
 
 .price-type-item {
     @include position--item;
+    border: 2px solid #FFBEBC;
 }
