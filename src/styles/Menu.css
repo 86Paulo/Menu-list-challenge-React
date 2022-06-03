@@ -34,8 +34,6 @@
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   -ms-grid-rows: 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
   height: 100%;
   position: relative;
 }
@@ -54,13 +52,10 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background-color: whitesmoke;
   opacity: 0.8;
   color: #0e1919;
-  -webkit-box-shadow: 6px 4px 20px 3px rgba(155, 155, 155, 0.56);
-          box-shadow: 6px 4px 20px 3px rgba(155, 155, 155, 0.56);
-  border-radius: 5px;
-  margin: 0 5px 0 5px;
+  margin: 0;
+  border-left: 1px solid black;
 }
 
 .dish-item {
