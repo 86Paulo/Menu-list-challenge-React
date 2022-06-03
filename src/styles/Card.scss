@@ -1,3 +1,10 @@
+@mixin card--position($position, $top, $left, $right) {
+    position: $position;
+    top: $top;
+    right: $right;
+    left: $left;
+}
+
 .card-container {
     height: 140vh;
     margin: 0;
@@ -86,36 +93,26 @@
 }
 
 #text-1 {
-    position: absolute;
-    top: 150px;
-    right: 185px;
+    @include card--position(absolute, 150px, $left, 185px);
 }
 
 #text-2 {
-    position: absolute;
-    top: 600.1px;
-    right: 440px;
+    @include card--position(absolute, 600.1px, $left, 440px);
 }
 
 #text-3 {
-    position: absolute;
-    top: 375px;
-    left: 95px;
+    @include card--position(absolute, 375px, 95px, $right);
 }
 
 #text-4 {
     box-sizing: border-box;
-    position: absolute;
-    top: 180px;
-    left: 375px;
+    @include card--position(absolute, 180px, 375px, $right);
     font-weight: bold;
 }
 
 #text-5 {
     box-sizing: border-box;
-    position: absolute;
-    top: 630px;
-    left: 147px;
+    @include card--position(absolute, 630px, 147px, $right);
 }
 
 .top-text {

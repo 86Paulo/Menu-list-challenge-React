@@ -1,3 +1,9 @@
+@mixin position--item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .container {
     margin: 0;
     background-color: whitesmoke;
@@ -31,8 +37,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    //grid-column-gap: 20px;
-    //grid-row-gap: 20px;
     height: 100%;
     position: relative;
 }
@@ -43,28 +47,20 @@
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
-    //background-color: whitesmoke;
     opacity: 0.8;
     color: rgb(14, 25, 25);
-    //box-shadow: 6px 4px 20px 3px rgba(155,155,155,0.56);
-    //border-radius: 5px;
     margin: 0;
     border-left: 1px solid black;
 }
 
 .dish-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include position--item;
 }
 
 .description-item {
     text-align:justify;
 }
 
-
 .price-type-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    @include position--item;
 }
